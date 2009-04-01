@@ -1,0 +1,29 @@
+/* this is what we use for file transfer messages */
+div#Chat div.emote {
+	text-align: center;
+	margin: 5px 10px 5px 10px;
+	/* border-bottom: 1px dotted #BEBEBE; */
+	border-top: 1px dotted #BEBEBE;
+	margin-top: 17px;
+}
+div#Chat div.emote span {
+	color: #B0B0B0;
+	margin-top: -10px;
+	display: block;
+}
+div#Chat div.emote span b {
+	background: white;
+	padding: 0 10px;
+	font: 18px "Zapf Dingbats" !important;
+}
+div#Chat div.emote {
+	font: 10px/22px "Lucida Grande", Verdana, Arial, sans-serif;
+}
+div#Chat div.emote p {
+	margin: -4px 0 -5px 0;
+}
+div#Chat div.emote b {
+	font: 9px "Helvetica";
+	font-weight: normal;
+	color: #B0B0B0;
+}

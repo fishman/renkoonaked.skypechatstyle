@@ -1,0 +1,59 @@
+/* Topic */
+
+div#topic-wrapper {
+	position: absolute;
+	width: 100%;
+	top: -500px;
+	min-height: 25px;
+	background: #C9D0DC url(../images/topic-bg.png) left bottom repeat-x;
+	overflow: visible;
+	border-bottom: 1px solid #9D9D9D;
+}
+div#topic-wrapper div#bookmark {
+	float: left;
+	width: 36px;
+	margin: 1px 4px 0 5px;
+}
+div#topic-wrapper div#picture {
+	display: none;
+}
+div#topic-wrapper div#topic {
+	line-height: 20px;
+	color: #424242;
+	font: 12px/22px "Lucida Grande", Verdana, Arial, sans-serif;
+	text-shadow: #E2E6EC 0 1px 1px;
+	font-weight: bold;
+	display: block;
+	margin-left: 45px;
+}
+div#topic-wrapper div#topic a {
+	text-decoration: underline;
+	color: #424242;
+}
+div#topic-wrapper div#topic a:hover {
+	text-decoration: underline;
+	color: white;
+	text-shadow: none;
+}
+div#topic-wrapper div#topic-text {
+	line-height: 19px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-right: 15px;
+	border: none;
+}
+div#topic-wrapper div#topic-text img {
+	vertical-align: middle;
+}
+div#topic-wrapper span.topic-editing {
+	background-color: white;
+	color: black;
+	font-size: 11px;
+	font-weight: normal;
+	text-shadow: none;
+	padding: 1px 3px 2px 3px;
+	line-height: 23px;
+}
+div#topic-wrapper span.topic-editing a {
+	color: black !important;
+}

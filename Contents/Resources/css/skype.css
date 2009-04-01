@@ -1,0 +1,120 @@
+/* Alerts */
+
+#alerts-wrapper {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #9D9D9D;
+}
+.erroricon {
+	background-image: url(../skypeimages/alerticon.png);
+}
+.warningicon {
+	background-image: url(../skypeimages/alerticon.png);
+}
+.notificationicon {
+	background-image: url(../skypeimages/notificationicon.png);
+}
+.alert {
+	width: 100%;
+	padding: 6px;
+	background-color: transparent;
+	font: 11px/14px "LucidaGrande", Helvetica, sans-serif;
+	background-position: 15px 5px;
+	background-repeat: no-repeat;
+}
+.alert-updown {
+	width: 100%;
+	background-color: #FFFFCC;
+	background-image: url(../skypeimages/alert_bg.png);
+	background-position: bottom left;
+	background-repeat: repeat-x;
+}
+.alert-message {
+	margin-top: 0px;
+	margin-left: 19px;
+}
+.alert-close {
+	height: 16px;
+	display: inline;
+	cursor: pointer;
+}
+.alert-close img {
+	float: right;
+	margin-top: 6px;
+	margin-right: 10px;
+}
+.alert-content {
+	padding-right: 40px;
+	padding-left: 21px;
+}
+.alert-separator {
+	height: 1px;
+	width: 100%;
+	display: block;
+	background-color: #FFFFCC;
+	clear: both;
+}
+.alert-start {
+	display: block;
+	clear: both;
+}
+.alert-aux-button {
+	float: right;
+	height: 16px;
+	margin-top: 6px;
+	margin-right: 6px;
+	background: transparent url(../skypeimages/button_left.png) top left no-repeat;
+	padding-left: 6px;
+}
+.alert-aux-button a {
+	display: block;
+	font: 9px/16px "Lucida Grande", Verdana, Arial, sans-serif;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+	padding-right: 6px;
+	background: transparent url(../skypeimages/button_right.png) top right no-repeat;
+}
+
+/* View earlier messages thingie */
+
+div#Chat div.service-holder {
+	background: transparent url(../skypeimages/service-bg-left.png) left top no-repeat;
+	min-height: 25px;
+	margin: 5px 10px 10px 10px;
+	padding-left: 10px;
+}
+div#Chat div.service-repeat {
+	background: transparent url(../skypeimages/service-bg-repeat.png) right bottom no-repeat;
+	margin-right: -10px;
+	min-height: 25px;
+}
+div#Chat div.service-repeat-left {
+	margin-left: -10px;
+	padding-bottom: 6px;
+	min-height: 25px;
+	background: transparent url(../skypeimages/service-bg-left-repeat.png) left bottom no-repeat;
+}
+div#Chat div.service {
+	background: transparent url(../skypeimages/service-bg.png) right top no-repeat;
+	min-height: 45px;
+	text-align: center;
+	font: 10px/22px "Lucida Grande", Verdana, Arial, sans-serif;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 10px;
+}
+div#Chat div.service p {
+	display: block;
+	margin: 11px 0 -5px 0;
+	padding: 0 20px;
+}
+div#Chat div.service b {
+	font: 9px "Helvetica";
+	font-weight: normal;
+	color: #B0B0B0;
+}
